@@ -9,13 +9,17 @@ html {
 }
 
 a {
-    color: #C9BDAF;
+    color: #EDEDED;
 }
 
 header {
-    color: #C9BDAF;
+    color: #EDEDED;
     text-align: center;
     font-size: 2em;
+}
+
+#Gallery {
+    color: #EDEDED;
 }
 
 .flex-container {
@@ -29,6 +33,7 @@ container {
 }
 
 img {
+    max-width: 900px;
     max-height: 550px;
 }
 
@@ -37,10 +42,14 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
+    hml {
+        padding: 20 auto;
+    }
     img {
          max-width: 70%;
     }
     video {
         max-width: 50%;
     }
+
 }
