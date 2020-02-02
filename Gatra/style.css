@@ -5,8 +5,7 @@ html {
     background-position: center top;
     font-family: 'Quicksand', sans-serif;
     padding: 0 auto;
-    margin: 0 auto;
-
+    margin: 10 auto;
 }
 
 a {
@@ -31,6 +30,10 @@ container {
 
 img {
     max-height: 550px;
+}
+
+#About {
+    color: #EDEDED;
 }
 
 @media only screen and (max-width: 600px) {
