@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
         <title>Gattra photography</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
-    <header>
-        <h1>Gattra photography</h1>
-        <h2>Gallery</h2>
-        <h2>About</h2>
-        <h2>Contact</h2>
+
+    <header class="flex-container">
+        <div><h1>Gattra photography</h1></div>
+        <a href="Gallery"><div><h2>Gallery</h2></div></a>
+        <a href="#About"><div><h2>About</h2></div></a>
+        <a href="#Contact"><div><h2>Contact</h2></div></a>
     </header>
     
     <container>
         <body>
-        <h1>Gallery</h1>     
-
-        <div>
-            <img src="Pictures/Cambodia1.jpg" alt="Cambodian big temple">
-        </div>
+        <h1 id="Gallery">Gallery</h1>     
 
         <div>
             <img src="Pictures/Gattra1.jpg" alt="Gattra">
@@ -48,12 +47,38 @@
         <div>
             <img src="Pictures/Spomenik.jpg" alt="Cambodian temple">
         </div>
+
+        <div>
+            <video src="Pictures/video1.MP4" controls>Video of Cambodian coast</video>
+        </div>
+    </container>    
+
+        <div id="About">
+            <h3>About</h3>
+            <p>A young Serbian photgrapher currently living in Shangai. Always on the journey for inspiration.
+                <br>Good music, chosen books and quality beer is only a sidequest
+                <br>for a man that is always carrying his Nikon camera and Drone with himself.</p>
+        </div>
+
+        <div id="Contact">
+            <h3>Contact</h3>
+            <form>
+                Your name<br>
+                <input type="text" name="name" placeholder="Enter your name..."><br>
+                Your Message<br>
+                <input type="text" name="message" placeholder="Your message here..."><br>
+                <input type="submit" value="Submit">
+            </form>
+         </div>
     
     
         </body>
-    </container>
+    
 
     <footer>
-
+        <h1>Gattra photography</h1>
+        <h2>Gallery</h2>
+        <h2>About</h2>
+        <h2>Contact</h2>
     </footer>
 </html>

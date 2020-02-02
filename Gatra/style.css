@@ -1,0 +1,43 @@
+html {
+    background-image: url("Pictures/Pozadina.jpg");
+    background-attachment: fixed;
+    background-size: 1500px;
+    background-position: center top;
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 auto;
+    margin: 0 auto;
+
+}
+
+a {
+    color: #C9BDAF;
+}
+
+header {
+    color: #C9BDAF;
+    text-align: center;
+    font-size: 2em;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+container {
+  text-align: center;   
+}
+
+img {
+    max-height: 550px;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+         max-width: 70%;
+    }
+    video {
+        max-width: 50%;
+    }
+}
