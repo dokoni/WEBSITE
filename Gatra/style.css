@@ -5,45 +5,82 @@ html {
     background-position: center top;
     font-family: 'Quicksand', sans-serif;
     padding: 0 auto;
-    margin: 10 auto;
+    margin: 0 auto;
+}
+
+body {
+    padding: 0 auto;
+    margin: 0 auto;
 }
 
 a {
     color: #EDEDED;
+    text-decoration: none;
 }
 
 header {
     color: #EDEDED;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
+    margin-bottom: 350px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 #Gallery {
     color: #EDEDED;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
 
-container {
+main {
   text-align: center;   
 }
 
 img {
     max-width: 900px;
     max-height: 550px;
+    padding: 0 auto;
 }
 
 #About {
     color: #EDEDED;
+    font-size: 2em;
+    margin-top: 250px;
 }
 
+#Contact {
+    color: #EDEDED;
+    margin-top: 250px;
+    font-size: 2em;
+    padding: 50px auto;
+}
+
+footer {
+    margin-top: 250px;
+    color: #EDEDED;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: right;
+}
+
+footer > h1 {
+    align-content: flex-start;
+}
+
+
 @media only screen and (max-width: 600px) {
-    hml {
-        padding: 20 auto;
+    html {
+        padding: 0 auto;
+        margin: 0 auto;
+        background-size: 1500px;
+        background-position: right top;
+        background-attachment: fixed;
+
+    }
+    header {
+        padding: 10px 20px;
     }
     img {
          max-width: 70%;
