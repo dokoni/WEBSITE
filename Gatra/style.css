@@ -76,6 +76,7 @@ footer {
         background-size: 1500px;
         background-position: right top;
         background-attachment: fixed;
+        background-repeat: no-repeat;
     }
     img {
          max-width: 80%;
