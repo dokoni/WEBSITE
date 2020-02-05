@@ -105,11 +105,14 @@ footer ul {
         padding: 0 auto;
         background-position: right top;
         background-attachment: fixed;
-        background-size: cover;
+        background-size: 350%;
         
     }
     #header-h1 {
         font-size: 1.5em;
+    }
+    video {
+        max-width: 60%;
     }
     footer h1 {
         font-size: 0.2em;
