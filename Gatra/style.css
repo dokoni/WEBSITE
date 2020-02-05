@@ -57,8 +57,8 @@ main {
 }
 
 img {
-    width: 550px;
-    max-height: 550px;
+    max-width: 80%;
+    height: auto;
 }
 
 .imageholder {
@@ -91,33 +91,4 @@ footer h1{
 
 footer ul {
     text-align: center;
-}
-@media only screen and (max-width: 950px) {
-    html {
-        padding: 0 auto;
-        margin: 0 auto;
-    } 
-    main {    
-        text-align: center;
-        background-size: contain;
-        background-position: top right;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-    }
-    header {
-        font-size: 0.9em;
-    }
-    img {
-         max-width: 80%;
-    }
-    video {
-        max-width: 60%;
-    }
-    footer {
-        font-size: 1.2em;
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-    }
-
 }
