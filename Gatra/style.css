@@ -89,6 +89,8 @@ footer h1{
     html {
         padding: 0 auto;
         margin: 0 auto;
+    } 
+    main {    
         text-align: center;
         background-size: 1500px;
         background-position: top right;
