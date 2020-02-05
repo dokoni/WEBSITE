@@ -103,10 +103,10 @@ footer ul {
     body {
         margin: 0 auto;
         padding: 0 auto;
-        background-position: right top;
+        background-image: url("Pictures/Pozadina copy 2.jpg");
+        background-position: top right;
         background-attachment: fixed;
-        background-size: 400%;
-        
+        background-size: 150%;
     }
     #header-h1 {
         font-size: 1.5em;
