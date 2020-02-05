@@ -92,7 +92,7 @@ footer h1{
     } 
     main {    
         text-align: center;
-        background-size: contain;
+        background-color: black;
         background-position: top right;
         background-attachment: fixed;
         background-repeat: no-repeat;
