@@ -2,6 +2,7 @@
 <html>
     <head>
         <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <title>Gattra photography</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,15 +14,21 @@
     <header class="header">
         <div>
             <h1 id="header-h1">Gattra photography</h1>
-            <ul>
+            <ul id="myLinks">
                 <li><a href="#Gallery">Gallery</a></li>
                 <li><a href="#About">About</a></li>
                 <li><a href="#Contact">Contact</a></li>
             </ul>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>         
     </header>
 
-    <img src="Pictures/Pozadina copy 2.jpg" id="pozadina">
+    <!-- <img src="Pictures/Pozadina copy 2.jpg" id="pozadina"> -->
+    <video autoplay muted loop id="pozadinac">
+        <source src="Pictures/video pozadinac.mp4" type="video/mp4">
+    </video>
     
     <container>
         <main>        
@@ -57,16 +64,12 @@
                 <div>
                     <img class="image" src="Pictures/Spomenik.jpg" alt="Cambodian temple">
                 </div>
-
-                <div>
-                    <video class="image" src="Pictures/video1.MP4" controls>Video of Cambodian coast</video>
-                </div  >
                 
             </div>    
 
             <div id="About">
                 <h3>About</h3>
-                <p>A young Serbian photgrapher currently living in Shanghai.
+                <p>A young Serbian photographer currently living in Shanghai.
                 <br>Always on the journey for inspiration.
                 <br>Good music, chosen books and quality beer is only a sidequest
                 <br>for a man that is always carrying his Fujifilm camera and Drone with himself.</p>
@@ -95,5 +98,16 @@
             <h1>Gattra Photography</h1>
         </footer>
     </container>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>    
 </body>
 </html>
