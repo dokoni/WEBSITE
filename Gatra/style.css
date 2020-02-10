@@ -18,8 +18,8 @@ body {
     left: 0px;
     top: 0px;    
     z-index: -1;
-    width: 100%;
-    height: 100%; 
+    width: auto;
+    height: 100%;
 }
 
 header {
@@ -38,7 +38,7 @@ header {
     text-align: left;
 }
 
-a {
+header a {
     text-decoration: none;
 }
 
@@ -46,11 +46,12 @@ ul {
     list-style-type: none;
     margin: 0 auto;
     padding: 0px 50px 0px 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: none;
+    text-align: center;
 }
-
+header a:hover {
+    background-color: lightskyblue;
+}
 .icon {
     display: block;
     padding-top: 10px;
@@ -58,6 +59,9 @@ ul {
     top: 0;
     right: 0;
     position: absolute;
+}
+.icon:hover {
+    background-color: lightskyblue;
 }
 main {
     text-align: center;
@@ -107,6 +111,9 @@ footer h1{
 
 footer ul {
     text-align: center;
+}
+footer a {
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 700px) {
