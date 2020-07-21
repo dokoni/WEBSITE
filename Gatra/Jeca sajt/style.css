@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'Post-Jaffna';
+    src: url(/fonts/post-no-bills-jaffna-cufonfonts-webfont/PostNoBillsJaffna-Regular.woff)
+    
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+    font-family: 'Post-Jaffna';
+    font-weight: normal;
+}
+
+body {
+    height: 100vh;
+}
+
+
+header {
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+
+}
+
+.logo {
+    font-family: Post-Jaffna;
+    font-weight: bolder;
+    font-size: 2rem;
+    align-self: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding-right: 0.7rem;
+
+}
+
+.main-container {
+    height: 90vh;
+    width: auto;
+    background: linear-gradient(242.34deg, #1A4F53 39%, #2E654A 61%);
+    position: relative;
+}
+
+#pen-holder1 {
+    position: absolute;
+    left: 30%;
+    transform: rotate(-6deg);
+    width: auto;
+}
+
+#dig-pen {
+    height: 40vh;
+}
+
+#pen-holder2 {
+    position: absolute;
+    right: 29vw;
+    top: 55%;
+    transform: rotate(-6deg);
+
+}
+
+#reg-pen {
+    height: 36vh;
+}
+
+#digital-letters {
+    
+    
+}
+
+#dig-let {
+    height: 90vh;
+} 
+
+#classic-let {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    height: 83vh;
+}
+
+
+
+
+
+
